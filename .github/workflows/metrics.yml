@@ -13,3 +13,4 @@ jobs:
       - uses: lowlighter/metrics@master
         with:
           token: ${{ secrets.METRICS_SECRET }}
+          plugin_stars: yes
